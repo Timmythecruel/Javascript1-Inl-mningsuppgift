@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tims Todo App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Todo app</h1>
+    </header>
+    <main>
+        <div class="wrapper">
+
+            <form id="todo-form">
+                <input type="text" id="todo-input" placeholder="Add a Todo" autocomplete="off" />
+                <button id="add-button" class="btn" type="submit">Add</button>
+                <p id="error-message">You need to type in text!</p>
+            </form>
+            <ul id="todo-list">
+            </ul>
+        </div>
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
